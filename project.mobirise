@@ -821,7 +821,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Appetizers",
@@ -873,33 +873,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Dessert",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1282.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-1920x1282-800x534.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Dessert",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1228.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-1920x1228-800x512.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
+                "active": true
               }
             ]
           }
@@ -1082,11 +1056,11 @@
           "_sourceTheme": "restaurantm4",
           "_customHTML": "<section group=\"Content\" class=\"content3 restaurantm4_content3 popup-btn-cards\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"mbr-popup-btns\">\n\n\t<mbr-parameters>\n\t\t<!--Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<input type=\"text\" title=\"Link\" name=\"linkValue\" value=\"http://www.mobiri.se\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"2\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"2\">\n\t\t<input type=\"range\" inline title=\"Min Height\" name=\"blockHeight\" min=\"1\" max=\"25\" step=\"1\" value=\"3\">\n\t\t<input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"color\" title=\"Background Color\" value=\"#f9e2af\" selected>\n\t\t</fieldset>\n\n\t\t<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#e7dacc\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<a class=\"full-link\" href=\"{{linkValue}}\"></a>\n\t<div class=\"container card-wrapper\">\n\t\t<div class=\"row justify-content-center align-items-center\" mbr-style=\"{'min-height':blockHeight + 'vw'}\">\n\t\t\t<div class=\"col-sm-12 col-md-10 text-block align-center\">\n\t\t\t\t<h2 mbr-if=\"showTitle\" class=\"mbr-section-title mbr-fonts-style mbr-light mbr-white mbr-bold\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title, .text-block\">\n\t\t\t\t\t1234 Irish Road Ocean City MD<br>info@singingsirenpub.com<br>757-222-2222</h2>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
           "_cid": "vd29SmgZbF",
+          "_anchor": "content3-d",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content3-d"
+          "_params": {}
         }
       ]
     }
